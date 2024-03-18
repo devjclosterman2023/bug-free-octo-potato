@@ -1,0 +1,133 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: white;
+    padding: 10px 0;
+    height: 177px;
+}
+nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.left,
+.right {
+    flex: 1;
+}
+.middle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.left a,
+.right span,
+.right a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+.left a {
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #606254;
+}
+.left a:hover,
+.right a:hover {
+    color: #D7BD8B;
+}
+.button {
+    background-color: #D7BD8B;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.button:hover {
+    background-color: #fff;
+    color: #D7BD8B;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.myTelephone {
+    color: #0D4054;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.myCover {
+    background-color: #606254;
+}
+.right {
+    color: #0D4054;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+}
+.el_left_rightRight {
+    margin-left: 5%;
+}
+.myTele {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0D4054;
+}
+
+ .button-container {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* margin: 0 -25px;  */
+  }
+  .el_child0 {
+    margin-right: -4%;
+  }
+  .el_child1 {
+    margin-right: -4%;
+  }
+  .button-container li {
+    display: inline-block;
+  }
+  .button-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #606254;
+    text-decoration: none;
+    border: 2px solid #606254;
+    transition: all 0.3s ease;
+    margin: 0;
+  }
+  .button-container a + a {
+    margin-left: 0px;
+  }
+  .button-container li:first-child a {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .button-container li:last-child a {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  .button-container a:hover {
+    background-color: #555;
+  }
+  .button-container a.active {
+    background-color: #555;
+  }
+
+
+
+
+
